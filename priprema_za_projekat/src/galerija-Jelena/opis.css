@@ -1,0 +1,139 @@
+#div {
+    margin: 0px auto 0px auto;
+    color: black;
+    /*background-color: white;
+    opacity: 30%;*/
+    color: white;
+  
+    border-radius: 4%;
+    border-width: 3px;
+    max-width: 80%;
+    display: flexbox;
+  
+  }
+  #cena {
+    font-weight: bold;
+    font-style: italic;
+    transition: transform 100ms ease-in;
+  }
+  #cena:hover{
+    transform: scale(1.05);
+    background-color: gray;
+    cursor: pointer;
+  }
+
+  .Text1,.Text2{
+    text-align: center;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: underline;
+  }
+
+  .Text1 {
+    font-style: italic;
+    text-decoration: none;
+    margin-top: 2%;
+  }
+  .Text2{
+    margin-top: 2%;
+    margin-bottom: 1%;
+  }
+  
+  .pasus {
+    text-align: justify;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    color: black;
+    text-align: center;
+  }
+  .pasus {
+    background: rgba(255, 254, 254, 0.6);
+    border-radius: 25px;
+    padding:10px 10px 10px 10px;
+  }
+
+  .card {
+    /*border: 3px hsl(0, 0%, 95%) solid;*/
+    /*box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.3);*/
+    transition: all 0.3s linear;
+    cursor: pointer;
+    /* background-color: hsl(0, 0%, 95%);*/
+    padding: 10px;
+    max-width: 320px;
+  
+    text-align: left;
+    margin: 0 auto;
+  }
+  
+  .card:hover {
+    background-color: #f3f3f3;
+    border-color: #f3f3f3;
+  }
+  
+  .card img {
+    max-width: calc(250%);
+    margin: 0 auto;
+    display: block;
+  }
+  
+  .card .index {
+    background-color: rgba(23, 43, 97, 0.2);
+    color: rgb(224, 16, 16);
+    line-height: 25px;
+    font-size: 14px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: block;
+    padding: 0 10px;
+    font-weight: bold;
+    text-decoration: double;
+  }
+  
+  
+  
+  .card .details {
+    position: relative;
+    background-color: red;
+  }
+
+  #sl {
+    max-width: 100px;
+    margin-left: 8px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+  }
+  
+  .page
+  
+  /*.page section*/
+    {
+  
+    max-width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  
+  
+  }
+
+  .dugme {
+    background-color: whitesmoke;
+    width: 30%;
+    font-weight: bold;
+    border-style: solid;
+  }
+  
+  .dugme:hover {
+    border-color: rgb(224, 16, 16);
+  
+  }
+  
+  #poddivDugmici {
+    margin: 3px;
+    display: flex;
+    justify-content: space-evenly;
+  
+    /*background-color: greenyellow;*/
+  
+  }

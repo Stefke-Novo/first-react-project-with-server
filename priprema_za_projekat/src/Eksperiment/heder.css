@@ -1,0 +1,72 @@
+.Heder{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    background-color: white;
+    z-index:100;
+    width:100%;
+    top:0;
+    height: 80px;
+}
+.HederLevo{
+    display: flex;
+    margin-left: 15%;
+}
+.HederDesno{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 15vw;
+    margin-right: 80px;
+}
+.HederCentar{
+    display: flex;
+    align-items: center;
+    flex:1;
+    max-width: fit-content;
+    padding: 10px;
+    height: 30px;
+    border: 1px solid lightgray;
+    border-radius: 999px;
+}
+.HederCentar input{
+    border: none;
+    /*width: 250px;*/
+    outline-width: 0;
+}
+.Opis{
+    position:absolute;
+    top:70px;
+    right: 30px;
+    border:2px solid black;
+    border-radius: 25px;
+    background-color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.Opis *{
+    margin-left: auto;
+    margin-right: auto;
+}
+.Avatar:hover{
+    color:gray;
+    cursor:pointer;
+}
+.Opis1{
+        position:absolute;
+        top:60px;
+        right: 210px;
+        border:2px solid black;
+        border-radius: 25px;
+        background-color: white;
+        padding-left: 10px;
+        padding-right: 10px;
+        display: flex;
+        flex-direction: column;
+}
+.Opis1 h3:hover{
+    background-color: peachpuff;
+}

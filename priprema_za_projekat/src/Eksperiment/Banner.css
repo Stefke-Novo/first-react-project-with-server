@@ -1,0 +1,37 @@
+.Banner{
+    background-image: url("./../Slike/pan-xiaozhen-423546-unsplash.jpg");
+    height: 100%;
+    position: relative;
+    background-size: 100% 100%;
+}
+.BannerInfo{
+    background-color: black;
+    color: white;
+    padding: 25vh 50px 40px 50px;
+    width: 300px;
+}
+.BannerInfo button{
+    background-color: #ff7779;
+    color: white;
+    text-transform: inherit;
+    margin-top: 20px;
+    font-weight: 600;
+}
+.BannerInfo button:hover , .BannerSearch button:hover{
+    background-color: white;
+    color: #ff7779;
+}
+.BannerInfo h5 {
+    margin-top: 10px;
+}
+.BannerSearch button{
+    background-color: white;
+    font-weight: 900;
+    text-transform: inherit;
+    color:#ff7779;
+    font-size: 18px;
+}
+.BannerSearch{
+    display: flex;
+    flex-direction:column ;
+}

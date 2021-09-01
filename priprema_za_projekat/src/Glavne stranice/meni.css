@@ -1,0 +1,41 @@
+.pocetna{
+  width: 50%;
+}
+.pocetna h1{
+  margin-left: 15%;
+  width: fit-content;
+}
+.stavke{
+  display: flex;
+  flex-direction: column;
+  width: fit-content;
+  margin-left: 50%;
+}
+.meni1 a{
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+  }
+  .meni1 a :hover{
+    opacity: 0.3;
+  }
+  .meni1 a :active{
+    opacity: 0.5;
+  }
+  .meni1a{
+    display: flex;
+    width: 50%;
+    justify-content: space-between;
+    margin-right: 50px;
+  }
+  .meni1 {
+    display: flex;
+    background-color: white;
+    border-bottom: 0.5px solid black;
+    border-radius: 25px;
+    height: 65px;
+  }
+  .meni1 *{
+    margin-top: auto;
+    margin-bottom: auto;
+  }

@@ -1,0 +1,52 @@
+.Desavanja{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .Naslovi{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 3%;
+  }
+  .SlikaITekst{
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    width: 16%;
+    transition: transform 100ms ease-in;
+    box-shadow: 0px 6px 18px -9px rgba( 0, 0, 0, 0.75);
+    border-radius: 25px;
+  }
+  .SlikaITekst img{
+    height: 100%;
+    border-radius: 25px;
+    transition: transform 100ms ease-in;
+  }
+  .SlikaITekst :hover{
+    transform:scale(1.05);
+  }
+  .Tekst{
+    text-align: center;
+    width: 100%;
+    overflow: hidden;
+    margin-top: auto;
+    margin-bottom: auto;
+  }
+  .DobroDosli{
+    text-align: center;
+  }
+  .Desavanja a{
+    text-decoration: none;
+    color: black;
+  }
+
+  .Slika{
+    z-index: -1000;
+    max-height: 100%;
+    max-width: 100%;
+  }
+  .Desavanja h1{
+    margin-top: 50px;
+    margin-bottom: 60px;
+  }

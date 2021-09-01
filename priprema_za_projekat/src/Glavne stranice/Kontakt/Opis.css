@@ -1,0 +1,79 @@
+.Account{
+    background-color: yellow;
+    display: flex;
+    justify-content: space-evenly;
+    border:2px solid black;
+    height: 20rem;
+}
+.StranaLeva{
+    display: flex;
+    flex-direction: column;
+    border: 2px solid black;
+    justify-content: space-evenly;
+    width:40%;
+    text-align: center;
+    font-size: 30px;
+    border-radius: 25px;
+    background-image: radial-gradient(rgb(224, 205, 205), rgb(245, 173, 173), gray);
+}
+.StranaDesna{
+    display: flex;
+    flex-direction: column;
+    border: 2px solid black;
+    justify-content: space-evenly;
+    width:40%;
+    text-align: center;
+    font-size: 30px;
+    border-radius: 25px;
+    background-image: radial-gradient(rgb(224, 205, 205), rgb(245, 173, 173), gray);
+}
+.OkvirKontakt{
+    border:100px solid rgb(120, 239, 255);
+
+}
+.Font{
+    font-style: italic;
+    font-weight: bold;
+}
+.Karta{
+    display: flex;
+    justify-content: space-around;
+    width:90%;
+}
+.OkvirKarta{
+    margin-top:25px;
+    margin-bottom: 25px;
+    display: flex;
+    border: 2px solid black;
+    background-image: radial-gradient(rgb(224, 205, 205), rgb(245, 173, 173), gray);
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.DugmeX{
+    margin-left: auto;
+    margin-right: auto;
+    cursor: pointer;
+    border-radius: 50px;
+    display: flex;
+    margin-top: 4px;
+    height: 50%;
+}
+.DugmeX:hover{
+    color: gray;
+}
+.Kupovina{
+    font-size: 22px;
+    text-align: center;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+.KupovinaOkvir{
+    margin-top: 6%;
+}
+.KupovinaOkvir button{
+    margin-left: 46%;
+}

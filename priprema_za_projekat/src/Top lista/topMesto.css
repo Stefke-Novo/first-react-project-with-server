@@ -1,0 +1,66 @@
+.topmesto {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 1700px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+
+}
+
+.levo {
+    display: flex;
+    margin-left: 25%;
+    margin-right: 25%;
+    height: 340px;
+    width: 50%;
+    border: 2px solid rgb(161, 135, 135);
+    /* background-color: blanchedalmond;*/
+    margin-top: 4px;
+    margin-bottom: 4px;
+}
+
+.topp {
+    display: flex;
+    justify-content: right;
+
+}
+
+#idd {
+    background-image: url('../Slike/koncert.jpg');
+
+}
+
+#zvezdaa {
+
+    /*  background-image: url('../Slike/kk.jpg');*/
+    background-image: url('../Slike/colic.jpg');
+    background-repeat: no-repeat;
+
+}
+.topmesto h3{
+    text-align: center;
+}
+
+
+#kljuc {
+    display: flex;
+    justify-content: center;
+
+}
+.Tekst2{
+    background-color: rgba(253, 255, 116, 0.5);
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0px;
+    height: 45%;
+    margin-top: 25%;
+}
+.naslovPocetna{
+    font-size: 35px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-style: italic;
+    margin-bottom: 3%;
+}

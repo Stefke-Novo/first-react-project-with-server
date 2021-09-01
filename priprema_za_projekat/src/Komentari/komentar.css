@@ -1,0 +1,31 @@
+.komentarPasus {
+    border: 1px solid black;
+    width: 80%;
+    text-align: center;
+    font-family: sans-serif;
+    font-style: italic;
+    margin: 0px auto 20px auto;
+    border-radius: 50px;
+    background-color: wheat;
+}
+
+.komentarOkvir {
+    border: 2px solid rgb(102, 97, 97);
+    display: flex;
+    flex-direction: column;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 60px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    background-image: radial-gradient(rgb(224, 205, 205), rgb(245, 173, 173), gray);
+    box-shadow: 1px 1px 1px black, 0 0 25px rgb(163, 163, 202), 0 0 5px rgb(92, 92, 214);
+    overflow: hidden;
+}
+.OkvirImeiPrezime,.okvirDatumIVreme{
+    width: 30%;
+}
+.OkvirElemenata{
+    display: flex;
+    justify-content: space-evenly;
+}
